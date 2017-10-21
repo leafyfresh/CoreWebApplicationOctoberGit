@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  corewebapplicationoctober:
+    image: corewebapplicationoctober
+    build:
+      context: ./CoreWebApplicationOctober
+      dockerfile: Dockerfile
